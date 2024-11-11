@@ -1,0 +1,9 @@
+
+mutation {
+  product_update(
+    id: "e772a70e762c4467822bb802cafe49eb"
+    data: { 
+        imageUrl: "https://www.jocooks.com/wp-content/uploads/2020/07/caesar-salad-1-13.jpg" 
+    }
+  )
+}

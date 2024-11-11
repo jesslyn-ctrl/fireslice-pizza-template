@@ -1,0 +1,136 @@
+# This is a file for you to write an un-named mutation. 
+# Only one un-named mutation is allowed per file.
+mutation {
+  product_insertMany(
+    data: [
+      {
+        name: "Margherita Pizza",
+        imageUrl: "https://cdn.shopify.com/s/files/1/0274/9503/9079/files/20220211142754-margherita-9920_5a73220e-4a1a-4d33-b38f-26e98e3cd986.jpg?v=1723650067",
+        price: 75000,
+        rating: 4.5,
+        description: "Classic Margherita pizza with tomato, mozzarella, and basil.",
+        category: "Pizza"
+      },
+      {
+        name: "Pepperoni Pizza",
+        imageUrl: "https://www.cobsbread.com/us/wp-content//uploads/2022/09/Pepperoni-pizza-850x630-1.png",
+        price: 85000,
+        rating: 4.7,
+        description: "Pepperoni pizza with tomato sauce, mozzarella, and pepperoni.",
+        category: "Pizza"
+      },
+      {
+        name: "BBQ Chicken Pizza",
+        imageUrl: "https://www.allrecipes.com/thmb/9Q9LUDJXEEJ5o3P9G48iN7bFrRQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-2x1-bdc59852305a41cf8f98c6c15e8b540c.jpg",
+        price: 90000,
+        rating: 4.8,
+        description: "BBQ chicken pizza with barbecue sauce, chicken, and onions.",
+        category: "Pizza"
+      },
+      {
+        name: "Four Cheese Pizza",
+        imageUrl: "https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg",
+        price: 95000,
+        rating: 4.6,
+        description: "Pizza with mozzarella, cheddar, Parmesan, and gorgonzola.",
+        category: "Pizza"
+      },
+      {
+        name: "American Cheeseburger Pizza",
+        imageUrl: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Dill-Pickle-Hamburger-Pizza_EXPS_FT23_194724_JR_1130_5.jpg",
+        price: 85000,
+        rating: 4.7,
+        description: "A delicious pizza with a blend of burger toppings: beef patty, lettuce, cheese, and ketchup.",
+        category: "Pizza"
+      },
+      {
+        name: "Aglio e Olio Pasta",
+        imageUrl: "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2de91e83-2502-47a6-aaa6-99a65eec8bea/Derivates/59952bab-94cb-42e4-8ae4-3e3925f737b3.jpg",
+        price: 65000,
+        rating: 4.5,
+        description: "Spaghetti Aglio e Olio with garlic, olive oil, and chili flakes.",
+        category: "Pasta"
+      },
+      {
+        name: "Carbonara Pasta",
+        imageUrl: "https://www.allrecipes.com/thmb/a_0W8yk_LLCtH-VPqg2uLD9I5Pk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg",
+        price: 70000,
+        rating: 4.6,
+        description: "Classic Italian carbonara with pancetta, eggs, and Parmesan.",
+        category: "Pasta"
+      },
+      {
+        name: "Fettuccine Alfredo",
+        imageUrl: "https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg",
+        price: 75000,
+        rating: 4.7,
+        description: "Creamy Fettuccine Alfredo with Parmesan and butter.",
+        category: "Pasta"
+      },
+      {
+        name: "Caesar Salad",
+        imageUrl: "https://www.jocooks.com/wp-content/uploads/2020/07/caesar-salad-1-13.jpg",
+        price: 55000,
+        rating: 4.3,
+        description: "Caesar salad with romaine lettuce, croutons, and Caesar dressing.",
+        category: "Salad"
+      },
+      {
+        name: "Greek Salad",
+        imageUrl: "https://www.thehungrybites.com/wp-content/uploads/2017/07/Authentic-Greek-salad-horiatiki-featured.jpg",
+        price: 60000,
+        rating: 4.4,
+        description: "Greek salad with tomatoes, cucumbers, olives, and feta cheese.",
+        category: "Salad"
+      },
+      {
+        name: "Garlic Bread",
+        imageUrl: "https://thebusybaker.ca/wp-content/uploads/2018/08/easy-homemade-garlic-bread-fbig3.jpg",
+        price: 30000,
+        rating: 4.5,
+        description: "Toasted garlic bread with butter and herbs.",
+        category: "Side Dish"
+      },
+      {
+        name: "Mozzarella Sticks",
+        imageUrl: "https://images.themodernproper.com/billowy-turkey/production/posts/2021/Homemade-Mozzarella-Sticks-9.jpeg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1638935116&s=2574b8da89d966ee167111e9822a0b4e",
+        price: 40000,
+        rating: 4.6,
+        description: "Crispy mozzarella sticks served with marinara sauce.",
+        category: "Side Dish"
+      },
+      {
+        name: "Chicken Wings",
+        imageUrl: "https://images.getrecipekit.com/20240103192542-buffalo-chicken-wings.jpg?width=650&quality=90&",
+        price: 50000,
+        rating: 4.7,
+        description: "Spicy buffalo chicken wings with blue cheese dressing.",
+        category: "Side Dish"
+      },
+      {
+        name: "Chocolate Lava Cake",
+        imageUrl: "https://cdn1-production-images-kly.akamaized.net/vx3f5rACcr7OcWhwNyUlb1-gAjE=/0x290:950x825/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4228383/original/088012200_1668584107-shutterstock_434375233.jpg",
+        price: 28000,
+        rating: 4.8,
+        description: "Warm chocolate cake with a molten chocolate center.",
+        category: "Dessert"
+      },
+      {
+        name: "Tiramisu",
+        imageUrl: "https://img.kurio.network/_dhhCZechQXEv7EwVlw4DmlLT4U=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/20/12/04/a24d67ad-96c8-4fa2-9187-b221e8a06934.jpg",
+        price: 32000,
+        rating: 4.9,
+        description: "Classic Italian tiramisu with layers of coffee-soaked ladyfingers and mascarpone.",
+        category: "Dessert"
+      },
+      {
+        name: "Ice Cream Sundae",
+        imageUrl: "https://assets.rbl.ms/21919567/origin.jpg",
+        price: 22000,
+        rating: 4.6,
+        description: "Ice cream sundae with chocolate syrup, whipped cream, and cherry.",
+        category: "Dessert"
+      }
+    ]
+  )
+}

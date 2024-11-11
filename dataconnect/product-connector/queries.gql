@@ -1,0 +1,33 @@
+# Queries for a simple pizza app.
+
+# ListProducts
+# Retrieves a list of products with optional ordering by rating and a limit on the number of products returned.
+# @auth(level: PUBLIC) allows public access to this query.
+
+# GetProductById
+# Retrieves a product by its unique identifier (id).
+# @auth(level: PUBLIC) allows public access to this query.
+
+# ListProductSearch
+# Searches for products based on a keyword, rating range, and category.
+# @auth(level: PUBLIC) allows public access to this query.
+
+# GetCurrentUser
+# Fetches the current authenticated user’s profile details including reviews and personal info.
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+# GetUserCart
+# Fetches the current user's cart items, ordered by row number.
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+# GetCartById
+# Fetches a specific cart item by its unique identifier (id).
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+# GetUserOrders
+# Retrieves the list of orders for a specific user, including the order details.
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+# GetFavoritedProduct
+# Retrieve a favorited product by its ID
+# @auth(level: USER) ensures that only authenticated users can access this query.

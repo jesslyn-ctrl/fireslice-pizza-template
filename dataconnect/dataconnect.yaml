@@ -1,0 +1,11 @@
+specVersion: "v1beta"
+serviceId: "your-service-id"
+location: "asia-southeast2"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "your-database"
+      cloudSql:
+        instanceId: "your-instance-id"
+connectorDirs: ["./product-connector"]

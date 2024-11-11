@@ -1,0 +1,7 @@
+connectorId: "product-connector"
+authMode: PUBLIC
+generate:
+  javascriptSdk:
+    package: "@product/dataconnect"
+    outputDir: ../../app/src/lib/dataconnect-sdk
+    packageJsonDir: "../../app"

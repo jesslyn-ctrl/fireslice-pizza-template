@@ -1,0 +1,10 @@
+query {
+    carts (
+        where: { userId: { eq: "hyUGny0Qv8uB1CRMuzOdxeEWt0VX" } }
+    ) {
+        id
+        qty
+        productId
+    }
+    # cart (key: { userId_expr: ""})
+}

@@ -1,0 +1,55 @@
+# Users
+# Represents a user in the system.
+# This includes their unique user ID, username, address, and phone number.
+# type User @table {
+#   id: String! @col(name: "user_auth")
+#   username: String! @col(name: "username", dataType: "varchar(50)")
+#   address: String @col(name: "address", dataType: "text")
+#   phoneNumber: String @col(name: "phone_number", dataType: "varchar(20)")
+# }
+
+# Products
+# Represents a product that can be ordered in the system.
+# Each product has a unique ID, a name, an image URL, price, rating, description, and category.
+# type Product @table {
+#     # TODO: Add the columns here
+# }
+
+# Carts
+# Represents a cart where a user can add products for purchase.
+# Includes the id, row number, user, product, qty, item price, total price, checkout status and created date.
+# type Cart @table(name: "Carts", singular: "cart", plural: "carts") {
+#    # TODO: Add the columns here
+# }
+
+# Orders
+# Represents an order placed by a user.
+# Contains order data such as id, order no, user, order date, total amount, and status.
+# type Order @table(name: "Orders", singular: "order", plural: "orders") {
+#     # TODO: Add the columns here
+# }
+
+# OrderDetails
+# Represents the details of products included in an order.
+# It contains id, references to the order and cart, along with the total qty and total amount for each product in the order.
+# type OrderDetail @table(name: "OrderDetails", singular: "order_detail", plural: "order_details") {
+#     # TODO: Add the columns here
+# }
+
+# FavoriteProducts
+# Represents a user's favorite product in the system.
+# This type links a user to a product they have marked as a favorite.
+# The relationship is established via the `user` and `product` fields, and this type serves as a Many-to-Many relation between the `User` and `Product` types.
+# TODO: Add key of relationship between `user` and `product` 
+# type FavoriteProduct @table(name: "FavoriteProducts", singular: "favorite_product", plural: "favorite_products") {
+#     # TODO: Add the columns here
+# }
+
+# Reviews
+# Represents a review left by a user for a product.
+# The relationship is established via the `user` and `product` fields, and this type serves as a Many-to-Many relation between the `User` and `Product` types.
+# Includes rating, review text, and review date. Each review is linked to a product and a user.
+# TODO: Add key of relationship between `user` and `product` 
+# type Review @table(name: "Reviews") {
+#     # TODO: Add the columns here
+# }

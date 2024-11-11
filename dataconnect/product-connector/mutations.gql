@@ -1,0 +1,40 @@
+# Mutations for a simple pizza app.
+
+# UpsertUser
+# Mutation to upsert (update or insert) a user's username, address, and phone number based on their authenticated user ID (auth.uid)
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# AddToCart
+# Mutation to add a product to the user's cart, using the product ID, quantity, item price, and total price
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# UpdateUserCartById
+# Mutation to update a user's cart item by its ID, including changes to quantity, item price, total price, and checkout status
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# DeleteUserCartProductById
+# Mutation to delete a product from the user's cart by its cart item ID
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# CreateOrder
+# Mutation to create a new order with a unique order number, total amount, and order status for a user
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# CreateOrderDetail
+# Mutation to create a new order detail by linking an order to a cart item, including total quantity and total amount for the order detail
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# AddFavoritedProduct
+# Mutation to add a product to the user's favorites list
+# @auth(level: USER) ensures that only authenticated users can access this query.
+
+
+# DeleteFavoritedProduct
+# Mutation to remove a product from the user's favorites list
+# @auth(level: USER) ensures that only authenticated users can access this query.
